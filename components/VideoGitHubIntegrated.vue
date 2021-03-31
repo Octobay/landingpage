@@ -29,7 +29,7 @@
           loop
         >
           <source
-            src="video/github-workflow.mp4"
+            src="video/github-workflow-new.mp4"
             type="video/mp4"
           >
         </video>
