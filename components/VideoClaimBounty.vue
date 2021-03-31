@@ -31,7 +31,7 @@
           loop
         >
           <source
-            src="video/claim-bounty.mp4"
+            src="video/claim-bounty-new.mp4"
             type="video/mp4"
           >
         </video>
