@@ -11,9 +11,9 @@
       </div>
       <div
         class="header-text mt-md-0 rellax"
-        data-rellax-desktop-speed="0"
-        data-rellax-tablet-speed="0"
-        data-rellax-mobile-speed="0"
+        data-rellax-desktop-speed="-5"
+        data-rellax-tablet-speed="-3"
+        data-rellax-mobile-speed="-3"
       >
         <h1 class="text-white">Octobay</h1>
         <h2 class="text-white mt-3 mt-md-0">
@@ -34,22 +34,22 @@
       </div>
     </div>
     <div class="header-dimmer-gradient rellax" v-rellax="{ speed: 0 }"></div>
-    <div class="rellax" v-rellax="{ speed: 0 }">
+    <div class="rellax" v-rellax="{ speed: -10 }">
       <img src="img/header-layer-sky-and-sun.png" />
     </div>
-    <div class="rellax" v-rellax="{ speed: 0 }">
+    <div class="rellax" v-rellax="{ speed: -8 }">
       <img src="img/header-layer-clouds.png" />
     </div>
-    <div class="rellax" v-rellax="{ speed: 0 }">
+    <div class="rellax" v-rellax="{ speed: -7 }">
       <img src="img/header-layer-mountain2.png" />
     </div>
-    <div class="rellax" v-rellax="{ speed: 0 }">
+    <div class="rellax" v-rellax="{ speed: -6 }">
       <img src="img/header-layer-see.png" />
     </div>
-    <div class="rellax" v-rellax="{ speed: 0 }">
+    <div class="rellax" v-rellax="{ speed: -5 }">
       <img src="img/header-layer-octo.png" />
     </div>
-    <div class="rellax" v-rellax="{ speed: 0 }">
+    <div class="rellax" v-rellax="{ speed: -5 }">
       <img src="img/header-layer-mountain1.png" />
     </div>
     <div class="rellax layer-dev" v-rellax="{ speed: 0 }">
@@ -60,7 +60,7 @@
 
 <script>
 export default {
-  name: "Navbar"
+  name: "RellaxOldContent"
 };
 </script>
 

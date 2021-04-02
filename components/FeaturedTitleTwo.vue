@@ -3,15 +3,13 @@
     <div class="pb-md-5 mb-md-5 rellax" v-rellax="{ speed: -1.3 }">
       <h4 class="text-center accent-color">A Brave New Economy</h4>
       <h1 class="text-center font-weight-bolder">
-        Incentivized Open Source Collaboration
+        Borderless Economy
       </h1>
       <p class="text-center lead">
-        Octobay is a collaboration platform connecting contributors with open
-        source projects. Active contributors are rewarded with Bounties for
-        their accepted submissions.
+        By securing the connection between contributors and projects, Octobay is
+        creating an open-source marketplace for development. Choose only the
+        work and projects that interest you. Contribute to a better tomorrow.
 
-        <!-- Bounties are awarded to active contributors for their
-        accepted submissions. -->
         <!-- Leveraging the power of the
         Blockchain, Octobay securely transfers payments between projects to
         contributors for simple and nearly-instant payment. -->
@@ -22,7 +20,7 @@
 
 <script>
 export default {
-  name: "FeaturedTitle"
+  name: "FeaturedTitleTwo"
 };
 </script>
 
