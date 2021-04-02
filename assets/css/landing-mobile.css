@@ -1,7 +1,31 @@
 @media screen and (max-width: 767px) {
+  .image-content-1 {
+    display: block;
+  }
+  /* .content-bg1 {
+    background-image: none;
+  }
+
+  .content-bg2 {
+    background-image: none;
+  }
+
+  .content-bg3 {
+    background-image: none;
+  } */
   header {
     z-index: 1;
     height: 140.625vw;
+  }
+  .wave-img {
+    margin-top: -1px;
+  }
+  .wave-img-bottom {
+    margin-bottom: -1px;
+  }
+
+  .pb-custom {
+    padding-bottom: 120px;
   }
 
   header .header-dimmer-gradient {

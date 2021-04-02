@@ -29,6 +29,11 @@ export default {
         href:
           "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
       }
+      /* {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap"
+      } */
     ],
     script: [
       {
@@ -40,6 +45,18 @@ export default {
       //CSS files in the project
       "~/assets/css/landing.css",
       "~/assets/css/landing-mobile.css"
+    ],
+    routes: [
+      { src: "/_nuxt/.+", headers: { "Cache-Control": "max-age=31557600" } },
+      {
+        src: "/sw.js",
+        dest: "/_nuxt/static/sw.js",
+        headers: {
+          "cache-control": "public, max-age=43200, immutable",
+          "Service-Worker-Allowed": "/"
+        }
+      },
+      { src: "/(.*)", dest: "/" }
     ]
   },
 

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="ps-md-5 ms-md-5 mb-5 pb-5 mb-md-0 pb-md-0 content-bg content-bg3 rellax"
+    class="ps-md-5 ms-md-5 mb-5 pb-5 mb-md-0 pb-md-10 content-bg content-bg3 rellax"
     v-rellax="{ speed: 0 }"
   >
     <div

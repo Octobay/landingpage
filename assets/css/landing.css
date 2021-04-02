@@ -4,6 +4,9 @@ body {
   position: relative;
 }
 
+.header-title {
+}
+
 .btn {
   border-radius: 25px;
   font-weight: 800;
@@ -211,24 +214,24 @@ section {
   z-index: 12;
 }
 
-.wave-top {
-  background-image: url("/img/wave-top.svg");
+/* .wave-top {
+  background-image: url("/img/wave-top.png");
   background-position: 0px 1px;
   height: 9.097222222vw;
 }
 
 .wave-bottom {
-  background-image: url("/img/wave-bottom.svg");
+  background-image: url("/img/wave-bottom.png");
   background-position: 0px -1px;
   height: 4.883958333vw;
 }
 
 .wave-footer {
-  background-image: url("/img/wave-footer.svg");
+  background-image: url("/img/wave-footer.png");
   background-position: 0px 1px;
   height: 12.533880556vw;
 }
-
+ */
 .accent-color {
   color: #652fff;
 }
@@ -273,6 +276,10 @@ section {
   min-height: 50vw;
   position: relative;
   z-index: 13;
+}
+
+.image-content-1 {
+  display: none;
 }
 
 .content-bg1 {

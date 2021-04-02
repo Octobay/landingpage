@@ -1,10 +1,11 @@
 <template>
-  <div style="background-color: #652FFF;">
+  <div id="promotion" style="background-color: #652FFF;">
+    <img class="wave-img" src="/img/wave-top.png" width="100%" />
     <div
       class="pe-md-5 me-md-5 content-bg content-bg2 rellax d-flex justify-content-end rellax"
       v-rellax="{ speed: 0 }"
     >
-      <a id="promotion"></a>
+      <a></a>
       <div
         class="w-100 d-flex justify-content-center justify-content-md-between"
       >
@@ -22,6 +23,9 @@
               <source src="video/create-bounty.mp4" type="video/mp4" />
             </video>
           </div>
+        </div>
+        <div class="image-content-1">
+          <!--  <img src="img/create-bounty-mobile-2.png" /> -->
         </div>
         <div
           class="card p-md-5 p-4 border-0 shadow-lg vw-50 mb-auto rellax"
@@ -43,6 +47,7 @@
         </div>
       </div>
     </div>
+    <!--  <img class="wave-img-bottom" src="/img/wave-bottom.png" width="100%" /> -->
   </div>
 </template>
 
