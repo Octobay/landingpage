@@ -2,17 +2,15 @@
   <div id="promotion" style="background-color: #652FFF;">
     <img class="wave-img" src="/img/wave-top.png" width="100%" />
     <div
-      class="pe-md-5 me-md-5 content-bg content-bg2 rellax d-flex justify-content-end rellax"
-      v-rellax="{ speed: 0 }"
+      class="pe-md-5 me-md-5 content-bg content-bg2 d-flex justify-content-end "
     >
       <a></a>
       <div
-        class="w-100 mt-md-145 d-flex justify-content-center justify-content-md-between"
+        class="w-100 mt-md-75 d-flex justify-content-center justify-content-md-between"
       >
         <div class="d-none d-md-block mt-5">
           <div
-            class="animation animation-left shadow-lg mb-auto mt-5 pt-3 bg-white vw-25 rellax"
-            v-rellax="{ speed: 0 }"
+            class="animation animation-left shadow-lg mb-auto mt-5 pt-3 bg-white vw-25 "
           >
             <video
               style="width:25vw; height:40.295vw;"
@@ -28,8 +26,7 @@
           <!--  <img src="img/create-bounty-mobile-2.png" /> -->
         </div>
         <div
-          class="card p-md-5 p-4 border-0 shadow-lg vw-50 mb-auto rellax"
-          v-rellax="{ speed: 0 }"
+          class="card p-md-5 p-4 border-0 shadow-lg vw-50 mb-auto "
           style="margin-top: -4vw;"
         >
           <h4 class="accent-color">
@@ -47,7 +44,7 @@
         </div>
       </div>
     </div>
-    <!--  <img class="wave-img-bottom" src="/img/wave-bottom.png" width="100%" /> -->
+    <img class="wave-img-bottom" src="/img/wave-bottom.png" width="100%" />
   </div>
 </template>
 

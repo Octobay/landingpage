@@ -22,13 +22,12 @@
 
   .content-bg2 {
     background-image: url("/img/content-tipping.png");
-    background-position: 25% center;
+    background-position: 0px -30px;
   }
 
   .content-bg3 {
     background-image: url("/img/content-promotion.png");
-    background-position: 80px 100px;
-    padding-top: 20px;
+    background-position: 75% center;
   }
 
   header {
@@ -39,10 +38,10 @@
     margin-top: -1px;
   }
   .wave-img-bottom {
-    margin-bottom: -1px;
+    margin-bottom: -5px;
   }
-  .mt-md-145 {
-    margin-top: 145px;
+  .mt-md-75 {
+    margin-top: 75px;
   }
 
   .pb-custom {

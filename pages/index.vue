@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="header-dimmer"></div>
+    <!-- <div class="header-dimmer"></div> -->
     <Navbar />
     <section>
       <!--      .wave-top {
