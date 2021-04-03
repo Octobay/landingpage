@@ -1,6 +1,6 @@
 <template>
   <div class="container intro pb-custom position-relative">
-    <div class="pb-md-5 mb-md-5 rellax" v-rellax="{ speed: -1.3 }">
+    <div class="pb-md-5 mb-md-5 rellax" v-rellax="{ speed: 0 }">
       <h4 class="text-center accent-color">A Brave New Economy</h4>
       <h1 class="text-center font-weight-bolder">
         Incentivized Open Source Collaboration

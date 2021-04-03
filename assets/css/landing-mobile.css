@@ -13,6 +13,24 @@
   .content-bg3 {
     background-image: none;
   } */
+
+  .content-bg1 {
+    background-image: url("/img/content-bounties.png");
+    background-position: 75% center;
+    margin-top: 30px;
+  }
+
+  .content-bg2 {
+    background-image: url("/img/content-tipping.png");
+    background-position: 25% center;
+  }
+
+  .content-bg3 {
+    background-image: url("/img/content-promotion.png");
+    background-position: 80px 100px;
+    padding-top: 20px;
+  }
+
   header {
     z-index: 1;
     height: 140.625vw;
@@ -22,6 +40,9 @@
   }
   .wave-img-bottom {
     margin-bottom: -1px;
+  }
+  .mt-md-145 {
+    margin-top: 145px;
   }
 
   .pb-custom {

@@ -8,7 +8,7 @@
     >
       <div
         class="card p-md-5 p-4 mb-auto border-0 shadow-lg vw-50 rellax"
-        v-rellax="{ speed: -1.3 }"
+        v-rellax="{ speed: 0 }"
         style="margin-top: -4vw;"
       >
         <h4 class="accent-color">Creating the Ecosystem of Contribution</h4>
@@ -24,7 +24,7 @@
       </div>
       <div
         class="d-none d-md-block animation animation-right shadow-lg p-2 mb-auto bg-white vw-25 rellax"
-        v-rellax="{ speed: -0.5 }"
+        v-rellax="{ speed: 0 }"
       >
         <video style="width:80vw; height:50vw;" autoplay="autoplay" muted loop>
           <source src="video/github-workflow-new.mp4" type="video/mp4" />

@@ -7,12 +7,12 @@
     >
       <a></a>
       <div
-        class="w-100 d-flex justify-content-center justify-content-md-between"
+        class="w-100 mt-md-145 d-flex justify-content-center justify-content-md-between"
       >
         <div class="d-none d-md-block mt-5">
           <div
             class="animation animation-left shadow-lg mb-auto mt-5 pt-3 bg-white vw-25 rellax"
-            v-rellax="{ speed: 1 }"
+            v-rellax="{ speed: 0 }"
           >
             <video
               style="width:25vw; height:40.295vw;"
@@ -29,7 +29,7 @@
         </div>
         <div
           class="card p-md-5 p-4 border-0 shadow-lg vw-50 mb-auto rellax"
-          v-rellax="{ speed: -1 }"
+          v-rellax="{ speed: 0 }"
           style="margin-top: -4vw;"
         >
           <h4 class="accent-color">

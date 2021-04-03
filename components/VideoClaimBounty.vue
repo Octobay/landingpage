@@ -17,7 +17,7 @@
       </div>
       <div
         class="d-none d-md-block animation animation-right shadow-lg p-2 mb-auto bg-white vw-25 rellax"
-        v-rellax="{ speed: -0.5 }"
+        v-rellax="{ speed: 0 }"
       >
         <!-- width="220"
               height="425" -->
