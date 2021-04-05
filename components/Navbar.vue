@@ -43,7 +43,7 @@
     </div>
     <div class="header-dimmer-gradient"></div>
     <div class="rellax" v-rellax="{ speed: 0 }">
-      <img src="img/banner-full-layers.png" />
+      <img src="img/banner-full.png" />
     </div>
 
     <!--  <div class="rellax" v-rellax="{ speed: 0 }">
