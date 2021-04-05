@@ -4,7 +4,9 @@
   >
     <a id="smartbounties"></a>
     <div class="w-100 d-flex justify-content-center justify-content-md-between">
-      <div class="card p-md-5 p-4 mb-auto border-0 shadow-lg vw-50 rellax">
+      <div
+        class="card claim-custom-pos p-md-5 p-4 mb-auto border-0 shadow-lg vw-50 rellax"
+      >
         <h4 class="accent-color">Innovative Marketplace to Outsource Tasks</h4>
         <h1>Claim Bounties</h1>
         <p class="m-0">

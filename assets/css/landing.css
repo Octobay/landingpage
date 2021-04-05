@@ -158,7 +158,9 @@ header .header-content .call-to-action.call-to-action-invert {
     opacity: 0;
   }
 }
-
+.claim-custom-pos {
+  margin-top: 140px;
+}
 header .header-dimmer-gradient {
   position: fixed;
   top: 0;

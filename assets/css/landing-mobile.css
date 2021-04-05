@@ -48,14 +48,6 @@
     padding-bottom: 120px;
   }
 
-  header .header-dimmer-gradient {
-    /*  background: linear-gradient(
-      180deg,
-      rgba(33, 26, 90, 0.8) 0%,
-      rgba(33, 26, 90, 0) 80%
-    ); */
-  }
-
   header .rellax img {
     width: 150vw !important;
     margin-left: -25%;
