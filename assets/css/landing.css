@@ -3,7 +3,6 @@ body {
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
-
 .btn {
   border-radius: 25px;
   font-weight: 800;
@@ -140,7 +139,7 @@ header .header-content .call-to-action.call-to-action-invert {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #652fff;
+  /* background-color: #652fff; */
   background-position: top;
   z-index: 10;
   animation-name: header-dimmer;

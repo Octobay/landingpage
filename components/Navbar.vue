@@ -41,11 +41,12 @@
         </div>
       </div>
     </div>
-    <div class="header-dimmer-gradient rellax" v-rellax="{ speed: 0 }"></div>
+    <div class="header-dimmer-gradient"></div>
     <div class="rellax" v-rellax="{ speed: 0 }">
-      <img src="img/header-layer-sky-and-sun.png" />
+      <img src="img/banner-full-layers.png" />
     </div>
-    <div class="rellax" v-rellax="{ speed: 0 }">
+
+    <!--  <div class="rellax" v-rellax="{ speed: 0 }">
       <img src="img/header-layer-clouds.png" />
     </div>
     <div class="rellax" v-rellax="{ speed: 0 }">
@@ -62,7 +63,7 @@
     </div>
     <div class="rellax layer-dev" v-rellax="{ speed: 0 }">
       <img src="img/header-layer-dev.png" />
-    </div>
+    </div> -->
   </header>
 </template>
 
