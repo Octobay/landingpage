@@ -46,6 +46,7 @@ export default {
       "~/assets/css/landing.css",
       "~/assets/css/landing-mobile.css"
     ],
+    plugins: [{ src: "@/plugins/vuetimeline.js" }],
     routes: [
       { src: "/_nuxt/.+", headers: { "Cache-Control": "max-age=31557600" } },
       {

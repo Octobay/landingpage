@@ -27,6 +27,7 @@
       <div class="wave wave-bottom"></div>
       <!--       <FeaturedTitleTwo /> -->
       <VideoClaimBounty />
+      <Roadmap />
       <a id="team"></a>
     </section>
     <!-- <div class="wave wave-footer"></div> -->
@@ -38,6 +39,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import FeaturedTitle from "../components/FeaturedTitle";
+import Roadmap from "../components/Roadmap";
 import VideoClaimBounty from "../components/VideoClaimBounty";
 import VideoCreateBounty from "../components/VideoCreateBounty";
 import VideoGitHubIntegrated from "../components/VideoGitHubIntegrated";
@@ -49,7 +51,8 @@ export default {
     Footer,
     VideoClaimBounty,
     VideoCreateBounty,
-    VideoGitHubIntegrated
+    VideoGitHubIntegrated,
+    Roadmap
   },
   data() {
     return {
