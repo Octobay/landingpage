@@ -24,7 +24,7 @@
           class="mt-md-5 pt-md-5 pt-4 d-flex justify-content-center flex-column flex-md-row"
         >
           <a
-            href="https//app.octobay.org"
+            href="https://app.octobay.org"
             class="btn btn-lg call-to-action me-md-3"
             >Launch App</a
           >
