@@ -15,7 +15,7 @@
       </div>
       <div class="header-text mt-md-0">
         <h1 class="header-title text-white">Octobay</h1>
-        <h2 class="text-nowrap text-white mt-3 mt-md-0">
+        <h2 class="text-white mt-3 mt-md-0">
           The future of Open Source<br /><span class="d-none d-md-inline"
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
           >collaboration and funding.
