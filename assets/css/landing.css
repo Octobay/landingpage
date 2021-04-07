@@ -63,7 +63,7 @@ header .header-content .header-text {
 header .header-content .header-text h1 {
   font-weight: 900;
   font-size: 6vw;
-  margin-left: 10vw;
+  margin-left: 10rem;
   text-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
   animation-name: header-content-slide-left;
   animation-duration: 2s;
