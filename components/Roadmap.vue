@@ -1,21 +1,67 @@
 <template>
   <div>
-    <!-- Latest update -->
-    <vue-timeline-update
-      :date="new Date('2017-02-26')"
-      title="v2.2.0 - Initial D"
-      description="Today I am thrilled to announce the release of Vue.js 2.2.0."
-      thumbnail="/images/vuetimeline/initial_d.jpg"
-      category="announcement"
-      icon="code"
-      color="red"
-    />
+    <div class="roadmap-anim"></div>
+    <div class="roadmap-container">
+      <div class="roadmap-header"><h1>Roadmap</h1></div>
+      <!-- Latest update -->
+      <div class="timeline-feed">
+        <vue-timeline-update
+          :date="new Date('2021-04-26')"
+          title="v2.2.0 - Initial D"
+          description="Today I am thrilled to announce the release of Vue.js 2.2.0."
+          category="octobay core"
+          animation="true"
+          theme="light"
+          icon="code"
+          color="blue"
+        />
+        <vue-timeline-update
+          :date="new Date('2021-04-26')"
+          title="v2.2.0 - Initial D"
+          description="Today I am thrilled to announce the release of Vue.js 2.2.0."
+          category="octobay core"
+          animation="true"
+          theme="light"
+          icon="code"
+          color="blue"
+        />
+        <vue-timeline-update
+          :date="new Date('2021-04-26')"
+          title="v2.2.0 - Initial D"
+          description="Today I am thrilled to announce the release of Vue.js 2.2.0."
+          category="octobay core"
+          animation="true"
+          theme="light"
+          icon="code"
+          color="blue"
+        />
+        <vue-timeline-update
+          :date="new Date('2021-04-26')"
+          title="v2.2.0 - Initial D"
+          description="Today I am thrilled to announce the release of Vue.js 2.2.0."
+          category="octobay core"
+          animation="true"
+          theme="light"
+          icon="code"
+          color="blue"
+        />
+        <vue-timeline-update
+          :date="new Date('2021-04-26')"
+          title="v2.2.0 - Initial D"
+          description="Today I am thrilled to announce the release of Vue.js 2.2.0."
+          category="octobay core"
+          animation="true"
+          theme="light"
+          icon="code"
+          color="blue"
+        />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Roadmap",
   data: () => ({
     messageWhenNoItems: "There arent items",
     dataTimeline: [
@@ -80,4 +126,20 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.roadmap-container {
+  padding-top: 30px;
+}
+.roadmap-header {
+  text-align: center;
+}
+
+.timeline-feed {
+  padding-top: 40px;
+}
+</style>

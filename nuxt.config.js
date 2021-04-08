@@ -40,28 +40,6 @@ export default {
         src: "https://kit.fontawesome.com/963e26517d.js",
         crossorigin: "anonymous"
       }
-    ],
-    css: [
-      //CSS files in the project
-      "~/assets/css/landing.css",
-      "~/assets/css/landing-mobile.css"
-    ],
-    plugins: [
-      { src: "@/plugins/vuetimeline.js" },
-      { src: "~/plugins/vee-validate", ssr: false }
-    ],
-
-    routes: [
-      { src: "/_nuxt/.+", headers: { "Cache-Control": "max-age=31557600" } },
-      {
-        src: "/sw.js",
-        dest: "/_nuxt/static/sw.js",
-        headers: {
-          "cache-control": "public, max-age=43200, immutable",
-          "Service-Worker-Allowed": "/"
-        }
-      },
-      { src: "/(.*)", dest: "/" }
     ]
   },
 
@@ -81,10 +59,29 @@ export default {
   */
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: [
+    //CSS files in the project
+    "~/assets/css/landing.css",
+    "~/assets/css/landing-mobile.css"
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: "~/node_modules/vue-rellax/lib/nuxt-plugin", ssr: false }],
+  plugins: [
+    { src: "@/plugins/vuetimeline.js" },
+    { src: "~/plugins/vee-validate", ssr: false }
+  ],
+  routes: [
+    { src: "/_nuxt/.+", headers: { "Cache-Control": "max-age=31557600" } },
+    {
+      src: "/sw.js",
+      dest: "/_nuxt/static/sw.js",
+      headers: {
+        "cache-control": "public, max-age=43200, immutable",
+        "Service-Worker-Allowed": "/"
+      }
+    },
+    { src: "/(.*)", dest: "/" }
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

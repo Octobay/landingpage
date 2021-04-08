@@ -3,34 +3,16 @@
     <!-- <div class="header-dimmer"></div> -->
     <Navbar />
     <section>
-      <!--      .wave-top {
-  background-image: url("/img/wave-top.png");
-  background-position: 0px 1px;
-  height: 9.097222222vw;
-}
-
-.wave-bottom {
-  background-image: url("/img/wave-bottom.png");
-  background-position: 0px -1px;
-  height: 4.883958333vw;
-}
-
-.wave-footer {
-  background-image: url("/img/wave-footer.png");
-  background-position: 0px 1px;
-  height: 12.533880556vw;
-} -->
-
       <FeaturedTitle />
       <VideoGitHubIntegrated />
       <VideoCreateBounty />
       <div class="wave wave-bottom"></div>
-      <!--       <FeaturedTitleTwo /> -->
       <VideoClaimBounty />
-      <client-only><MailchimpSignup /></client-only>
-      <a id="team"></a>
+      <div class="roadmap-container">
+        <Roadmap />
+      </div>
+      <!-- <client-only><MailchimpSignup /></client-only> -->
     </section>
-    <!-- <div class="wave wave-footer"></div> -->
     <Footer />
   </div>
 </template>

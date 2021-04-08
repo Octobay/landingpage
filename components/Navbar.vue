@@ -13,12 +13,7 @@
         <a href="#smartbounties" class="btn text-white">Get Rewarded</a>
         <a href="https://medium.com/octobay" class="btn text-white">Blog</a>
       </div>
-      <div
-        class="header-text mt-md-0 rellax"
-        data-rellax-desktop-speed="0"
-        data-rellax-tablet-speed="0"
-        data-rellax-mobile-speed="0"
-      >
+      <div class="header-text mt-md-0 rellax">
         <h1 class="header-title text-white">Octobay</h1>
         <h2 class="text-white mt-3 mt-md-0">
           The future of Open Source<br /><span class="d-none d-md-inline"
@@ -42,7 +37,7 @@
       </div>
     </div>
     <div class="header-dimmer-gradient"></div>
-    <div class="rellax" v-rellax="{ speed: 0 }">
+    <div class="rellax">
       <img src="img/banner-full.png" />
     </div>
 

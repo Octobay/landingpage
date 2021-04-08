@@ -3,7 +3,7 @@ import Mailchimp from "mailchimp-api-v3";
 
 // ASK RICK FOR MAILCHIMP API KEYS
 const apiKey = process.env.MAILCHIMP_API_KEY || MAILCHIMP_API_KEY;
-const audienceId = MAILCHIMP_AUDIENCE_ID;
+const audienceId = process.env.MAILCHIMP_AUDIENCE_ID || MAILCHIMP_API_KEY;
 const mailchimp = new Mailchimp(apiKey);
 
 const app = express();
