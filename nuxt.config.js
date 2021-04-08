@@ -46,7 +46,11 @@ export default {
       "~/assets/css/landing.css",
       "~/assets/css/landing-mobile.css"
     ],
-    plugins: [{ src: "@/plugins/vuetimeline.js" }],
+    plugins: [
+      { src: "@/plugins/vuetimeline.js" },
+      { src: "~/plugins/vee-validate", ssr: false }
+    ],
+
     routes: [
       { src: "/_nuxt/.+", headers: { "Cache-Control": "max-age=31557600" } },
       {
@@ -89,7 +93,7 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ["@nuxtjs/axios"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}

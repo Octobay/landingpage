@@ -27,7 +27,7 @@
       <div class="wave wave-bottom"></div>
       <!--       <FeaturedTitleTwo /> -->
       <VideoClaimBounty />
-      <Roadmap />
+      <client-only><MailchimpSignup /></client-only>
       <a id="team"></a>
     </section>
     <!-- <div class="wave wave-footer"></div> -->
@@ -43,6 +43,7 @@ import Roadmap from "../components/Roadmap";
 import VideoClaimBounty from "../components/VideoClaimBounty";
 import VideoCreateBounty from "../components/VideoCreateBounty";
 import VideoGitHubIntegrated from "../components/VideoGitHubIntegrated";
+import MailchimpSignup from "../components/MailchimpSignup.vue";
 
 export default {
   components: {
@@ -52,7 +53,8 @@ export default {
     VideoClaimBounty,
     VideoCreateBounty,
     VideoGitHubIntegrated,
-    Roadmap
+    Roadmap,
+    MailchimpSignup
   },
   data() {
     return {
