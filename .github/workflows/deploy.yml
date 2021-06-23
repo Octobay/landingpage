@@ -3,10 +3,9 @@ on:
   push:
     branches: [ main ]
     paths-ignore:
-      - '.github/workflows/**'
       - '**.md'
 env:
-  URL: octobay.org
+  URL: openq.dev
 
 jobs:
   build:

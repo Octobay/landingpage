@@ -1,4 +1,4 @@
-# Octobay Landingpage
+# OpenQ Landingpage
 
 ## Build Setup
 
