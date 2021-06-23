@@ -1,19 +1,15 @@
 <template>
-  <div
-    class="mb-5 pb-5 mb-md-0 pb-md-0 ps-md-5 ms-md-5 content-bg content-bg1 rellax"
-  >
+  <div class="mb-5 pb-5 mb-md-0 pb-md-0 ps-md-5 ms-md-5 content-bg content-bg1 rellax">
     <a id="smartbounties"></a>
     <div class="w-100 d-flex justify-content-center justify-content-md-between">
-      <div
-        class="card claim-custom-pos p-md-5 p-4 mb-auto border-0 shadow-lg vw-50 rellax"
-      >
+      <div class="card claim-custom-pos p-md-5 p-4 mb-auto border-0 shadow-lg vw-50 rellax">
         <h4 class="accent-color">Innovative Marketplace to Outsource Tasks</h4>
         <h1>Claim Bounties</h1>
         <p class="m-0">
           Contributors can claim their reward without additional consense from
           the maintainer.<br />
           <br />
-          Leveraging the power of the Blockchain, Octobay securely transfers
+          Leveraging the power of the Blockchain, OpenQ securely transfers
           payments between projects and contributors - nearly-instant.
         </p>
       </div>
@@ -29,7 +25,10 @@
           muted
           loop
         >
-          <source src="video/claim-bounty-new.mp4" type="video/mp4" />
+          <source
+            src="video/claim-bounty-new.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
     </div>
@@ -38,7 +37,7 @@
 
 <script>
 export default {
-  name: "VideoClaimBounty"
+  name: "VideoClaimBounty",
 };
 </script>
 

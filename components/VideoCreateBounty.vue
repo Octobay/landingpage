@@ -1,24 +1,28 @@
 <template>
-  <div id="promotion" style="background-color: #652FFF;">
-    <img class="wave-img" src="/img/wave-top.png" width="100%" />
-    <div
-      class="pe-md-5 me-md-5 content-bg content-bg2 d-flex justify-content-end "
-    >
+  <div
+    id="promotion"
+    style="background-color: #652FFF;"
+  >
+    <img
+      class="wave-img"
+      src="/img/wave-top.png"
+      width="100%"
+    />
+    <div class="pe-md-5 me-md-5 content-bg content-bg2 d-flex justify-content-end ">
       <a></a>
-      <div
-        class="w-100 mt-md-75 d-flex justify-content-center justify-content-md-between"
-      >
+      <div class="w-100 mt-md-75 d-flex justify-content-center justify-content-md-between">
         <div class="d-none d-md-block mt-5">
-          <div
-            class="animation animation-left shadow-lg mb-auto mt-5 pt-3 bg-white vw-25 "
-          >
+          <div class="animation animation-left shadow-lg mb-auto mt-5 pt-3 bg-white vw-25 ">
             <video
               style="width:25vw; height:40.295vw;"
               autoplay="autoplay"
               muted
               loop
             >
-              <source src="video/create-bounty.mp4" type="video/mp4" />
+              <source
+                src="video/create-bounty.mp4"
+                type="video/mp4"
+              />
             </video>
           </div>
         </div>
@@ -34,7 +38,7 @@
           </h4>
           <h1>Create Bounties</h1>
           <p class="m-0">
-            Octobay continues to expand on the distributed trust model by
+            OpenQ continues to expand on the distributed trust model by
             collateralizing bounties for open source projects hosted on Github.
             <br />
             <br />
@@ -44,13 +48,17 @@
         </div>
       </div>
     </div>
-    <img class="wave-img-bottom" src="/img/wave-bottom.png" width="100%" />
+    <img
+      class="wave-img-bottom"
+      src="/img/wave-bottom.png"
+      width="100%"
+    />
   </div>
 </template>
 
 <script>
 export default {
-  name: "VideoCreateBounty"
+  name: "VideoCreateBounty",
 };
 </script>
 
