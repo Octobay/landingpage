@@ -43,7 +43,7 @@ header .header-content {
   animation-duration: 4s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
-  animation-delay: 2.5s;
+  animation-delay: 0.5s;
 }
 
 @keyframes header-content-fade {
@@ -69,7 +69,7 @@ header .header-content .header-text h1 {
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
-  animation-delay: 2.5s;
+  animation-delay: 0.5s;
 }
 
 @keyframes header-content-slide-left {
@@ -90,7 +90,7 @@ header .header-content .header-text h2 {
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
-  animation-delay: 2.5s;
+  animation-delay: 0.5s;
 }
 
 @keyframes header-content-slide-right {
