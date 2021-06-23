@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Octobay - The future of Open Source collaboration and funding.",
+    title: "OpenQ - Decentralized Job Marketplace for Developers.",
     htmlAttrs: {
       lang: "en"
     },
