@@ -11,7 +11,7 @@
           <div class="d-flex flex-column flex-md-row footer-links justify-content-between py-5">
             <div class="d-flex flex-column align-items-center align-items-md-start">
               <a
-                href="https://octobay.github.io/docs/"
+                href="https://docs.openq.dev"
                 class="btn text-white"
               >Documentation</a>
               <a
