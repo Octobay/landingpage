@@ -15,7 +15,17 @@ export default {
         content:
           "width=device-width, initial-scale=1 ,maximum-scale=1.0, user-scalable=no"
       },
-      { hid: "description", name: "description", content: "" }
+      {
+        hid: "description",
+        name: "OpenQ - Decentralized Job Marketplace",
+        content:
+          "OpenQ extends the distributed trust model by collateralizing bounties for projects hosted on GitHub. Welcome to the first fully decentralized job marketplace based on smart contracts."
+      },
+      {
+        hid: "keywords",
+        name: "keywords",
+        content: "openq, bounties, job, marketplace"
+      }
     ],
     link: [
       {
@@ -28,7 +38,8 @@ export default {
         rel: "stylesheet",
         href:
           "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      }
+      },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
       /* {
         rel: "stylesheet",
         href:
