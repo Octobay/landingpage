@@ -17,8 +17,8 @@
           traditional contracting.<br />
           <br />
 
-          Atomic contracting helps you to maintain a high overall project
-          quality and to keep your processes clear.
+          Atomic contracting helps you to maintain a high overall software
+          project quality and to keep your processes clear.
         </p>
       </div>
       <div

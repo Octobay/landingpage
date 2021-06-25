@@ -14,8 +14,8 @@
         <h4 class="accent-color">Creating the Ecosystem of Contribution</h4>
         <h1>Borderless Economy</h1>
         <p class="m-0">
-          By securing the connection between developers and their clients, OpenQ
-          is creating an fully decentralized marketplace.
+          By securing the connection between software developers and their
+          clients, OpenQ is creating a fully decentralized marketplace.
           <br />
           <br />
           Choose only work for projects that interests you. Contribute to a

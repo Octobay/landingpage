@@ -3,7 +3,7 @@
     <div class="pb-md-5 mb-md-5 rellax" v-rellax="{ speed: 0 }">
       <h4 class="text-center accent-color">A Brave New Economy</h4>
       <h1 class="text-center font-weight-bolder">
-        Connecting Recruitment and DeFi
+        Innovative Marketplace to Outsource Tasks
       </h1>
       <p class="text-center lead">
         Powered by <span class="text-secondary">Ethereum</span> and
