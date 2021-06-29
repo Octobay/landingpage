@@ -1,12 +1,12 @@
 <template>
-  <div id="promotion" style="background-color: #652FFF;">
+  <div id="promotion" class="create-bounty" style="background-color: #652FFF;">
     <img class="wave-img" src="/img/wave-top.png" width="100%" />
     <div
       class="pe-md-5 me-md-5 content-bg content-bg2 d-flex justify-content-end "
     >
       <a></a>
       <div
-        class="w-100 mt-md-75 d-flex justify-content-center justify-content-md-between"
+        class="card-content w-100 mt-md-75 d-flex justify-content-center justify-content-md-between"
       >
         <div class="d-none d-md-block mt-5">
           <div
@@ -26,7 +26,7 @@
           <!--  <img src="img/create-bounty-mobile-2.png" /> -->
         </div>
         <div
-          class="card p-md-5 p-4 border-0 shadow-lg vw-50 mb-auto "
+          class=" card p-md-5 p-4 border-0 shadow-lg vw-50 mb-auto "
           style="margin-top: -4vw;"
         >
           <h4 class="accent-color">
@@ -61,4 +61,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+@media screen and (max-width: 767px) {
+  .card-content {
+    padding-bottom: 50px;
+  }
+}
+</style>

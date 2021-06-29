@@ -21,7 +21,7 @@
   height: 12.533880556vw;
 } -->
 
-      <FeaturedTitle />
+      <div class="feature-title"><FeaturedTitle /></div>
       <VideoGitHubIntegrated />
       <VideoCreateBounty />
       <div class="wave wave-bottom"></div>
@@ -71,4 +71,16 @@ export default {
 <style>
 @import "~/assets/css/landing.css";
 @import "~/assets/css/landing-mobile.css";
+
+.feature-title {
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .feature-title {
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+}
 </style>
