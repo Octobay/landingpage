@@ -74,7 +74,7 @@
               <i class="fab fa-github"></i>
             </a>
             <a
-              href="https://medium.com/OpenQ"
+              href="https://medium.com/OpenQDev"
               class="btn text-white"
             >
               <i class="fab fa-medium"></i>
