@@ -15,7 +15,7 @@
                 class="btn text-white"
               >Documentation</a>
               <a
-                href="https://medium.com/openq"
+                href="https://medium.com/openqdev"
                 class="btn text-white"
               >Blog</a>
               <!-- <a href="#" class="btn text-white">Documentation</a> -->
