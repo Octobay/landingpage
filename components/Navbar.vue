@@ -7,7 +7,7 @@
       <div class="nav">
         <a href="#promotion" class="btn text-white">Smart Bounties</a>
         <a href="#smartbounties" class="btn text-white">Get Rewarded</a>
-        <a href="https://medium.com/openq" class="btn text-white">Blog</a>
+        <a href="https://medium.com/openqdev" class="btn text-white">Blog</a>
       </div>
       <div class="header-text mt-md-0">
         <h1 class="header-title text-white">OpenQ</h1>
